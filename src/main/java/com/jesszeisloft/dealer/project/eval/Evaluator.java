@@ -1,6 +1,8 @@
 package com.jesszeisloft.dealer.project.eval;
 
+import java.util.List;
+
 public interface Evaluator {
 
-    String[] evaluateReviews(String[] allReviews);
+    List<String> evaluateReviews(List<String> allReviews);
 }
