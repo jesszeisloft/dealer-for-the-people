@@ -1,8 +1,8 @@
 package com.jesszeisloft.dealer.project.config;
 
 import com.google.inject.AbstractModule;
-import com.jesszeisloft.dealer.project.client.DealerRaterPageScraper;
-import com.jesszeisloft.dealer.project.client.impl.DealerRaterPageScraperImpl;
+import com.jesszeisloft.dealer.project.scraper.DealerRaterPageScraper;
+import com.jesszeisloft.dealer.project.scraper.impl.DealerRaterPageScraperImpl;
 import com.jesszeisloft.dealer.project.eval.ReviewEvaluator;
 import com.jesszeisloft.dealer.project.eval.impl.ReviewEvaluatorImpl;
 import com.jesszeisloft.dealer.project.facilitate.FacilitatorFactory;

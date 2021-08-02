@@ -1,6 +1,6 @@
-package com.jesszeisloft.dealer.project.client.impl;
+package com.jesszeisloft.dealer.project.scraper.impl;
 
-import com.jesszeisloft.dealer.project.client.DealerRaterPageScraper;
+import com.jesszeisloft.dealer.project.scraper.DealerRaterPageScraper;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

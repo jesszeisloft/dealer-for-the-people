@@ -1,4 +1,4 @@
-package com.jesszeisloft.dealer.project.client;
+package com.jesszeisloft.dealer.project.scraper;
 
 import java.util.List;
 

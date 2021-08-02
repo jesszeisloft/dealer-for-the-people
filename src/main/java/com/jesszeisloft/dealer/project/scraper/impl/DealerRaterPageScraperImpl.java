@@ -1,6 +1,6 @@
-package com.jesszeisloft.dealer.project.client.impl;
+package com.jesszeisloft.dealer.project.scraper.impl;
 
-import com.jesszeisloft.dealer.project.client.DealerRaterPageScraper;
+import com.jesszeisloft.dealer.project.scraper.DealerRaterPageScraper;
 import com.jesszeisloft.dealer.project.util.Constants;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;

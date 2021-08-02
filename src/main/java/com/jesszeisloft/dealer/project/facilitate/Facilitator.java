@@ -1,7 +1,7 @@
 package com.jesszeisloft.dealer.project.facilitate;
 
 import com.google.inject.Inject;
-import com.jesszeisloft.dealer.project.client.DealerRaterPageScraper;
+import com.jesszeisloft.dealer.project.scraper.DealerRaterPageScraper;
 import com.jesszeisloft.dealer.project.eval.ReviewEvaluator;
 import com.jesszeisloft.dealer.project.util.PrinterUtil;
 
