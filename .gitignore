@@ -27,8 +27,10 @@ classes
 *.ipr
 *.iws
 
+## Logs
+*.log
+
 **/src/generated/
 out
 src/main/generated
-node_modules
 jacoco
