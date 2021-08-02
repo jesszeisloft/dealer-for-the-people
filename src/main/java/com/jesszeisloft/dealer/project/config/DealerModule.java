@@ -12,6 +12,9 @@ import com.jesszeisloft.dealer.project.util.impl.PrinterUtilImpl;
 public class DealerModule extends AbstractModule {
 
 
+    /**
+     * Binds dependencies
+     */
     @Override
     protected void configure() {
         bind(ReviewEvaluator.class).to(ReviewEvaluatorImpl.class).asEagerSingleton();

@@ -10,5 +10,4 @@ public class FacilitatorFactory {
     public static Facilitator getInstance(){
         return facilitatorProvider.get();
     }
-
 }
