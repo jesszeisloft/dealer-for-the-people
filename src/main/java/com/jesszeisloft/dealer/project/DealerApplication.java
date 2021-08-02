@@ -10,5 +10,4 @@ public class DealerApplication {
         Guice.createInjector(new DealerModule());
         FacilitatorFactory.getInstance().facilitate();
     }
-
 }

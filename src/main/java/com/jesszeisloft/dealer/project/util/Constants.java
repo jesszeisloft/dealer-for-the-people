@@ -9,4 +9,7 @@ public class Constants {
     public static String REVIEW_CSS_QUERY = ".review-content";
 
     public static int TOTAL_PAGES = 5;
+    public static int NUM_TOP_REVIEWS = 3;
+    public static char EXCLAMATION_POINT = '!';
+    public static int NEGATIVE_ONE = -1;
 }
