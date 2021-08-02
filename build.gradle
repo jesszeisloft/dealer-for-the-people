@@ -1,8 +1,9 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
-group 'org.example'
+group 'com.jesszeisloft'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -11,7 +12,8 @@ repositories {
 
 dependencies {
     compile 'com.google.inject:guice:4.1.0'
-    compile 'org.slf4j:slf4j-log4j12:1.7.31'
+    compile 'org.apache.logging.log4j:log4j-api:2.6.1'
+    compile 'org.apache.logging.log4j:log4j-core:2.6.1'
     implementation 'org.jsoup:jsoup:1.14.1'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
@@ -19,4 +21,9 @@ dependencies {
 
 test {
     useJUnitPlatform()
+}
+
+application {
+    mainClass = 'com.jesszeisloft.dealer.project.DealerApplication'
+    applicationDefaultJvmArgs = ['--add-opens', 'java.base/java.lang=ALL-UNNAMED']
 }
