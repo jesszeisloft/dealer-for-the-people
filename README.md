@@ -1,16 +1,19 @@
-# README.md
+# Dealer for the People
 
+### Overview
+
+An application to uncover the most over-enthusiastic car dealership reviews.
 
 ### Running the Application 
 
-In Terminal:
+In Terminal, from project root directory:
 ```
 $ ./gradlew clean build run
 ```
 
 ### Running Tests
 
-In Terminal:
+In Terminal, from project root directory:
 ```
 $ ./gradlew test
 ```
