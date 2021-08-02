@@ -1,5 +1,6 @@
 package com.jesszeisloft.dealer.project.util.impl;
 
+import com.jesszeisloft.dealer.project.util.PrinterUtil;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
@@ -9,10 +10,8 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 class PrinterUtilImplTest {
-
-    private final PrinterUtilImpl printerUtil = new PrinterUtilImpl();
+    private final PrinterUtil printerUtil = new PrinterUtilImpl();
     private final String REVIEW = "abc";
-
 
     @Test
     void test_exceptionCheckInputSizeEqualToNumTopReviews() {

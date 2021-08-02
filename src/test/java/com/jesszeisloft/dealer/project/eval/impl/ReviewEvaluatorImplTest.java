@@ -4,7 +4,6 @@ import com.jesszeisloft.dealer.project.eval.ReviewEvaluator;
 import com.jesszeisloft.dealer.project.util.Constants;
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
