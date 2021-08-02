@@ -19,6 +19,7 @@ public class PrinterUtilImpl implements PrinterUtil {
      */
     @Override
     public void printTopReviews(List<String> reviews) {
+        if (reviews == null) return;
         IntStream.range(0, Math.min(Constants.NUM_TOP_REVIEWS, reviews.size())).forEach(
                 r -> logger.log(Level.INFO, (r + 1) + ". " + reviews.get(r))
         );
